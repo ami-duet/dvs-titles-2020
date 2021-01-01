@@ -72,4 +72,4 @@ function appendViz() {
   });
 }
 
-
+getScaleInfo();
