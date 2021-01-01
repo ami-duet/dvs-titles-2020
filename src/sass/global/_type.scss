@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Utopia';
+  src:  url('../font/UtopiaStd-Regular.woff2') format('woff2'),
+        url('../font/UtopiaStd-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'UtopiaBold';
+  src:  url('../font/UtopiaStd-BoldCapt.woff2') format('woff2'),
+        url('../font/UtopiaStd-BoldCapt.woff') format('woff');
+}
+@font-face {
+  font-family: 'UtopiaBlack';
+  src:  url('../font/UtopiaStd-BlackHeadline.woff2') format('woff2'),
+        url('../font/UtopiaStd-BlackHeadline.woff') format('woff');
+}
+
+$fontPrimary: 'Utopia', sans-serif;
+$fontSecondary: 'UtopiaBold', sans-serif;
+$fontHeadline: 'UtopiaBlack', sans-serif;
+$fontSize: 1.8rem;
+
+h1 {
+  margin: 100px 0 0;
+  font-family: $fontHeadline;
+  font-size: 9.6rem;
+}
+h2, h3, h4 {
+  font-family: $fontSecondary;
+}
+h2 {
+  margin: 10px 0;
+  font-size: 2.6rem;
+}

@@ -1,0 +1,17 @@
+#titles-viz {
+  margin: 60px 0;
+  .arches {
+    path {
+      opacity: 1;
+      transition-property: opacity;
+      @include easeSineIn;
+      &.down {
+        opacity: 0.2;
+        @include easeSineOut;
+      }
+      &.highlighted {
+        opacity: 1;
+      }
+    }
+  }
+}
