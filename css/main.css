@@ -1154,30 +1154,60 @@
   src: url("../font/UtopiaStd-BoldCapt.woff2") format("woff2"), url("../font/UtopiaStd-BoldCapt.woff") format("woff");
 }
 
-/* line 28, src/sass/global/_type.scss */
+@font-face {
+  font-family: 'UtopiaCaptIt';
+  src: url("../font/UtopiaStd-CaptIt.woff2") format("woff2"), url("../font/UtopiaStd-CaptIt.woff") format("woff");
+}
+
+/* line 34, src/sass/global/_type.scss */
 h1 {
-  margin: 50px 0 0;
+  margin: 40px 0 0;
   font-family: "Utopia", sans-serif;
   font-size: 3.3rem;
   font-weight: normal;
   text-transform: uppercase;
 }
 
-/* line 35, src/sass/global/_type.scss */
+@media (max-height: 570px) {
+  /* line 34, src/sass/global/_type.scss */
+  h1 {
+    margin-top: 0;
+    font-size: 2.8rem;
+  }
+}
+
+/* line 45, src/sass/global/_type.scss */
 h2, h3, h4 {
   font-family: "UtopiaSemiBold", sans-serif;
   font-weight: normal;
 }
 
-/* line 39, src/sass/global/_type.scss */
+/* line 49, src/sass/global/_type.scss */
 h2 {
-  margin: 10px 0;
+  margin: 35px 0 0;
   font-size: 2.2rem;
 }
 
-/* line 44, src/sass/global/_type.scss */
+@media (max-height: 570px) {
+  /* line 49, src/sass/global/_type.scss */
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* line 56, src/sass/global/_type.scss */
+p {
+  margin: 40px 0;
+}
+
+/* line 60, src/sass/global/_type.scss */
 .em {
   font-family: "UtopiaBold", sans-serif;
+}
+
+/* line 63, src/sass/global/_type.scss */
+.italic {
+  font-family: "UtopiaCaptIt", sans-serif;
 }
 
 /**
@@ -1251,6 +1281,34 @@ button {
 /* line 31, src/sass/components/_hero.scss */
 .hero .subtitle {
   margin: 5px 0;
+}
+
+/* line 1, src/sass/components/_intro.scss */
+.definition-top {
+  margin: 0 auto;
+  max-width: 170px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* line 6, src/sass/components/_intro.scss */
+.definition-top .definition-type {
+  text-transform: uppercase;
+}
+
+/* line 10, src/sass/components/_intro.scss */
+.definition-text {
+  margin-top: 20px;
+  padding-top: 42px;
+  background-image: url(../assets/star.svg);
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center top;
+}
+
+/* line 18, src/sass/components/_intro.scss */
+.definition-text p:first-of-type {
+  margin-top: 0;
 }
 
 /* line 1, src/sass/components/_sections.scss */
