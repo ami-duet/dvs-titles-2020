@@ -3,6 +3,15 @@
 let data = [];
 const sections = [
   { 
+    sct_id: 'it_sct', 
+    groups: [
+      {group_id: 'dev', group_label: 'Developers'},
+      {group_id: 'it', group_label: 'IT Specialists'},
+      {group_id: 'eng', group_label: 'Engineers'},
+      {group_id: 'scientist', group_label: 'Scientists'},
+    ]
+  },
+  { 
     sct_id: 'data_science_sct', 
     groups: [
       {group_id: 'data_specialist', group_label: 'Data Scientists'},
@@ -15,20 +24,11 @@ const sections = [
     ]
   },
   { 
-    sct_id: 'it_sct', 
-    groups: [
-      {group_id: 'dev', group_label: 'Developers'},
-      {group_id: 'it', group_label: 'IT Specialists'},
-      {group_id: 'eng', group_label: 'Engineers'},
-      {group_id: 'scientist', group_label: 'Scientists'},
-    ]
-  },
-  { 
     sct_id: 'design_comm_sct', 
     groups: [
-      {group_id: 'artist', group_label: 'Artists'},
-      {group_id: 'designer', group_label: 'Designers'},
       {group_id: 'journalist', group_label: 'Journalist'},
+      {group_id: 'designer', group_label: 'Designers'},
+      {group_id: 'artist', group_label: 'Artists'},
       {group_id: 'writer', group_label: 'Writers & Editors'},
       {group_id: 'social_public', group_label: 'Social Sciences & Public service'},
       {group_id: 'comm_marketing', group_label: 'Communications & Marketing'},
@@ -37,19 +37,19 @@ const sections = [
   { 
     sct_id: 'business_sct', 
     groups: [
-      {group_id: 'finance_economy', group_label: 'Finances & Economy'},
       {group_id: 'business_dev_op', group_label: 'Business Development & Operations'},
+      {group_id: 'finance_economy', group_label: 'Finances & Economy'},
       {group_id: 'merl', group_label: 'Monitoring, Evaluation & Performance'},
     ] 
   },
   { 
     sct_id: 'learning_sct', 
     groups: [
-      {group_id: 'support', group_label: 'Support staff'},
-      {group_id: 'student', group_label: 'Students'},
       {group_id: 'teacher', group_label: 'Teachers & Professors'},
-      {group_id: 'research', group_label: 'Researchers'},
+      {group_id: 'student', group_label: 'Students'},
       {group_id: 'postdoc', group_label: 'PostDoctoral'},
+      {group_id: 'research', group_label: 'Researchers'},
+      {group_id: 'support', group_label: 'Support staff'},
     ] 
   },
   { 
@@ -59,6 +59,11 @@ const sections = [
       {group_id: 'manager', group_label: 'Managers'},
       {group_id: 'head', group_label: 'Executives & Founders'},
       {group_id: 'dir', group_label: 'Directors & Supervisors'},
+    ]
+  },
+  { 
+    sct_id: 'another_sct', 
+    groups: [
       {group_id: 'unemployed', group_label: 'Unemployed'},
       {group_id: 'another', group_label: 'Another'},
     ] 

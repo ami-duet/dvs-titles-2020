@@ -3,7 +3,7 @@ function appendViz() {
   // Scales
   const groupSumPeopleScale = d3.scaleLinear()
     .domain([0, d3.max(groupsSumPeople)])
-    .range([50, 200]);
+    .range([30, 200]);
   const numCharScale = d3.scaleLinear()
     .domain([0, d3.max(numChar)])
     .range([0, 140]);
@@ -15,16 +15,6 @@ function appendViz() {
   const titlesViz = d3.select('#titles-viz').append('svg')
     .attr('width', vizWidth)
     .attr('height', vizHeight);
-  
-  // Append main axis
-  const mainAxis = titlesViz.append('g')
-    .attr('class', 'main-axis-wrapper')
-    .append('line')
-      .attr('x1', mainAxisX)
-      .attr('y1', 0)
-      .attr('x2', mainAxisX)
-      .attr('y2', vizHeight)
-      .attr('stroke', 'black');
   
   // Append arches
   const arches = titlesViz.append('g')
@@ -81,7 +71,8 @@ function appendViz() {
     yPos += 50;
   });
 
-  vizHeight = yPos;
+  // Update SVG height based on content
+  titlesViz.attr('height', yPos);
 }
 
 getScaleInfo();
