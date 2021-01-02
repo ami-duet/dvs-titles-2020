@@ -1221,7 +1221,7 @@ button {
 
 /* line 8, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path.down {
-  opacity: 0.2;
+  opacity: 0.1;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
   -webkit-transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
