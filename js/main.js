@@ -9,7 +9,7 @@ function appendViz() {
     .range([0, 140]);
   const titleNumPeopleScale = d3.scaleLinear()
     .domain([1, d3.max(numPeopleWithJobTitle)])
-    .range([3, 20]);
+    .range([2, 20]);
 
   // Append SVG
   const titlesViz = d3.select('#titles-viz').append('svg')
@@ -29,7 +29,7 @@ function appendViz() {
   // Append arches
   const arches = titlesViz.append('g')
     .attr('class', 'arches')
-    .attr('fill-opacity', 0.35)
+    .attr('fill-opacity', 0.4)
     .attr('stroke', 'none');
 
   let yPos = 0;

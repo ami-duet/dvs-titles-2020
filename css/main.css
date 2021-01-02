@@ -3,8 +3,8 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 45px;
+  padding-left: 45px;
   width: 100%;
   max-width: 1600px;
 }
@@ -14,8 +14,8 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 45px;
+  padding-left: 45px;
   width: 100%;
 }
 
@@ -26,8 +26,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -22.5px;
+  margin-right: -22.5px;
 }
 
 /* line 29, src/sass/global/_grid.scss */
@@ -37,8 +37,8 @@
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 22.5px;
+  padding-left: 22.5px;
   -ms-flex-preferred-size: 0;
       flex-basis: 0;
   -webkit-box-flex: 1;
@@ -1135,8 +1135,18 @@
 }
 
 @font-face {
+  font-family: 'UtopiaDisplay';
+  src: url("../font/UtopiaStd-Disp.woff2") format("woff2"), url("../font/UtopiaStd-Disp.woff") format("woff");
+}
+
+@font-face {
   font-family: 'Utopia';
   src: url("../font/UtopiaStd-Regular.woff2") format("woff2"), url("../font/UtopiaStd-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'UtopiaSemiBold';
+  src: url("../font/UtopiaStd-Semibold.woff2") format("woff2"), url("../font/UtopiaStd-Semibold.woff") format("woff");
 }
 
 @font-face {
@@ -1144,27 +1154,30 @@
   src: url("../font/UtopiaStd-BoldCapt.woff2") format("woff2"), url("../font/UtopiaStd-BoldCapt.woff") format("woff");
 }
 
-@font-face {
-  font-family: 'UtopiaBlack';
-  src: url("../font/UtopiaStd-BlackHeadline.woff2") format("woff2"), url("../font/UtopiaStd-BlackHeadline.woff") format("woff");
-}
-
-/* line 22, src/sass/global/_type.scss */
+/* line 28, src/sass/global/_type.scss */
 h1 {
-  margin: 100px 0 0;
-  font-family: "UtopiaBlack", sans-serif;
-  font-size: 9.6rem;
+  margin: 50px 0 0;
+  font-family: "Utopia", sans-serif;
+  font-size: 3.3rem;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
-/* line 27, src/sass/global/_type.scss */
+/* line 35, src/sass/global/_type.scss */
 h2, h3, h4 {
-  font-family: "UtopiaBold", sans-serif;
+  font-family: "UtopiaSemiBold", sans-serif;
+  font-weight: normal;
 }
 
-/* line 30, src/sass/global/_type.scss */
+/* line 39, src/sass/global/_type.scss */
 h2 {
   margin: 10px 0;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
+}
+
+/* line 44, src/sass/global/_type.scss */
+.em {
+  font-family: "UtopiaBold", sans-serif;
 }
 
 /**
@@ -1189,18 +1202,79 @@ html {
 body {
   margin: 0;
   font-family: "Utopia", sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.2;
+  font-size: 2.2rem;
+  line-height: 1.45;
   color: #3D342B;
   fill: #3D342B;
+  background-color: #E2C9A9;
 }
 
-/* line 23, src/sass/global/_base.scss */
+/* line 24, src/sass/global/_base.scss */
 input,
 textarea,
 select,
 button {
   font: inherit;
+}
+
+/* line 1, src/sass/components/_hero.scss */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  padding: 35px 0;
+  background-image: url(../assets/bg_Start_Col.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+/* line 12, src/sass/components/_hero.scss */
+.hero .top-section {
+  font-family: "UtopiaDisplay", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* line 20, src/sass/components/_hero.scss */
+.hero .logo {
+  margin: 0 -45px;
+  width: 100vw;
+  height: 260px;
+  background-image: url(../assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: 223px 243px;
+  background-position: calc(50vw - 51px) center;
+}
+
+/* line 31, src/sass/components/_hero.scss */
+.hero .subtitle {
+  margin: 5px 0;
+}
+
+/* line 1, src/sass/components/_sections.scss */
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+/* line 6, src/sass/components/_sections.scss */
+.section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+/* line 10, src/sass/components/_sections.scss */
+.content {
+  max-height: 100vh;
+  background-image: url(../assets/bg_Intro_Col.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
 }
 
 /* line 1, src/sass/components/_titles-viz.scss */
