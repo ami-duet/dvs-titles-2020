@@ -1220,15 +1220,16 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
+  background-color: #BFB19E;
 }
 
-/* line 11, src/sass/global/_base.scss */
+/* line 12, src/sass/global/_base.scss */
 *, ::after, ::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
 
-/* line 14, src/sass/global/_base.scss */
+/* line 15, src/sass/global/_base.scss */
 body {
   margin: 0;
   font-family: "Utopia", sans-serif;
@@ -1236,7 +1237,6 @@ body {
   line-height: 1.45;
   color: #3D342B;
   fill: #3D342B;
-  background-color: #E2C9A9;
 }
 
 /* line 24, src/sass/global/_base.scss */
@@ -1259,7 +1259,15 @@ button {
   text-align: center;
 }
 
-/* line 12, src/sass/components/_hero.scss */
+@media (min-width: 577px) {
+  /* line 1, src/sass/components/_hero.scss */
+  .hero {
+    width: 375px;
+    height: 812px;
+  }
+}
+
+/* line 16, src/sass/components/_hero.scss */
 .hero .top-section {
   font-family: "UtopiaDisplay", sans-serif;
   font-size: 1.4rem;
@@ -1267,7 +1275,7 @@ button {
   text-transform: uppercase;
 }
 
-/* line 20, src/sass/components/_hero.scss */
+/* line 24, src/sass/components/_hero.scss */
 .hero .logo {
   margin: 0 -45px;
   width: 100vw;
@@ -1278,7 +1286,15 @@ button {
   background-position: calc(50vw - 51px) center;
 }
 
-/* line 31, src/sass/components/_hero.scss */
+@media (min-width: 577px) {
+  /* line 24, src/sass/components/_hero.scss */
+  .hero .logo {
+    width: 375px;
+    background-position: 135px center;
+  }
+}
+
+/* line 39, src/sass/components/_hero.scss */
 .hero .subtitle {
   margin: 5px 0;
 }
@@ -1471,13 +1487,24 @@ button {
       scroll-snap-type: y mandatory;
 }
 
-/* line 6, src/sass/components/_sections.scss */
+@media (min-width: 577px) {
+  /* line 1, src/sass/components/_sections.scss */
+  .scroll-container {
+    margin: 60px auto;
+    width: 375px;
+    height: 812px;
+    border: 2px solid #3D342B;
+    border-radius: 48px;
+  }
+}
+
+/* line 13, src/sass/components/_sections.scss */
 .section {
   height: 100vh;
   scroll-snap-align: center;
 }
 
-/* line 10, src/sass/components/_sections.scss */
+/* line 17, src/sass/components/_sections.scss */
 .content {
   max-height: 100vh;
   background-image: url(../assets/bg_Intro_Col.png);
