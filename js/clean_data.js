@@ -3,16 +3,8 @@
 let data = [];
 const sections = [
   { 
-    sct_id: 'it_sct', 
-    groups: [
-      {group_id: 'dev', group_label: 'Developers'},
-      {group_id: 'it', group_label: 'IT Specialists'},
-      {group_id: 'eng', group_label: 'Engineers'},
-      {group_id: 'scientist', group_label: 'Scientists'},
-    ]
-  },
-  { 
-    sct_id: 'data_science_sct', 
+    sct_id: 'it_sct',
+    sct_label: 'The green family',
     groups: [
       {group_id: 'data_specialist', group_label: 'Data Scientists'},
       {group_id: 'bi', group_label: 'Business Intelligence'},
@@ -21,10 +13,15 @@ const sections = [
       {group_id: 'librarian', group_label: 'Librarians'},
       {group_id: 'geo', group_label: 'Geographic & Geospatial'},
       {group_id: 'dataviz', group_label: 'Data Visualization Specialists'},
+      {group_id: 'dev', group_label: 'Developers'},
+      {group_id: 'it', group_label: 'IT Specialists'},
+      {group_id: 'eng', group_label: 'Engineers'},
+      {group_id: 'scientist', group_label: 'Scientists'},
     ]
   },
   { 
     sct_id: 'design_comm_sct', 
+    sct_label: 'The red family',
     groups: [
       {group_id: 'journalist', group_label: 'Journalist'},
       {group_id: 'designer', group_label: 'Designers'},
@@ -35,7 +32,8 @@ const sections = [
     ] 
   },
   { 
-    sct_id: 'business_sct', 
+    sct_id: 'business_sct',
+    sct_label: 'The blue family',
     groups: [
       {group_id: 'business_dev_op', group_label: 'Business Development & Operations'},
       {group_id: 'finance_economy', group_label: 'Finances & Economy'},
@@ -43,7 +41,8 @@ const sections = [
     ] 
   },
   { 
-    sct_id: 'learning_sct', 
+    sct_id: 'learning_sct',
+    sct_label: 'The orange family',
     groups: [
       {group_id: 'teacher', group_label: 'Teachers & Professors'},
       {group_id: 'student', group_label: 'Students'},
@@ -53,26 +52,25 @@ const sections = [
     ] 
   },
   { 
-    sct_id: 'unknown_sct', 
+    sct_id: 'unknown_sct',
+    sct_label: 'The almond family',
     groups: [
       {group_id: 'freelance_consultant', group_label: 'Consultants & Freelancers'},
       {group_id: 'manager', group_label: 'Managers'},
       {group_id: 'head', group_label: 'Executives & Founders'},
       {group_id: 'dir', group_label: 'Directors & Supervisors'},
-    ]
-  },
-  { 
-    sct_id: 'another_sct', 
-    groups: [
       {group_id: 'unemployed', group_label: 'Unemployed'},
       {group_id: 'another', group_label: 'Another'},
-    ] 
-  }
+    ]
+  },
 ];
 
 sections.forEach(sct => {
   let currentSct = {};
   currentSct.sct_id = sct.sct_id;
+  currentSct.sct_label = sct.sct_label;
+  currentSct.sctSumPeople = 0;
+  currentSct.sctSumLeaders = 0;
   currentSct.groups = [];
 
   sct.groups.forEach(group => {
@@ -101,6 +99,7 @@ d3.csv('../data/data_job_titles.csv').then(data_original => {
     jobTitleInfo.num_char = parseInt(d.num_char);
     jobTitleInfo.job_title = d.job_title;
     jobTitleInfo.num_people = parseInt(d.num_people);
+    section.sctSumPeople += jobTitleInfo.num_people;
     group.sumPeople += jobTitleInfo.num_people;
     jobTitleInfo.isFreelance = d.pos_freelance !== '' ? true : false;
   
@@ -115,7 +114,10 @@ d3.csv('../data/data_job_titles.csv').then(data_original => {
       : mixColors(jobTitleInfo.fields);
   
     if (d.pos_senior !== '') { group.sumSeniors += parseInt(d.pos_senior); }
-    if (d.pos_lead !== '') { group.sumLeaders += parseInt(d.pos_lead); }
+    if (d.pos_lead !== '') { 
+      group.sumLeaders += parseInt(d.pos_lead); 
+      section.sctSumLeaders += parseInt(d.pos_lead);
+    }
     if (d.pos_freelance !== '') { group.sumFreelancers += parseInt(d.pos_freelance); }
 
   });

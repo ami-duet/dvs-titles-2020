@@ -2,1436 +2,9 @@
 const data = [
   {
     "sct_id": "it_sct",
-    "groups": [
-      {
-        "group_id": "dev",
-        "group_label": "Developers",
-        "sumPeople": 106,
-        "titles": [
-          {
-            "uid": "301",
-            "num_char": 9,
-            "job_title": "developer",
-            "num_people": 3,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "302",
-            "num_char": 18,
-            "job_title": "freelance developer",
-            "num_people": 2,
-            "isFreelance": true,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "303",
-            "num_char": 15,
-            "job_title": "senior developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "304",
-            "num_char": 13,
-            "job_title": "lead developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "305",
-            "num_char": 38,
-            "job_title": "lead developer and digital projects manager",
-            "num_people": 1,
-            "isFreelance": true,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "306",
-            "num_char": 20,
-            "job_title": "independent developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "307",
-            "num_char": 16,
-            "job_title": "tableau developer",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "308",
-            "num_char": 12,
-            "job_title": "web developer",
-            "num_people": 5,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "309",
-            "num_char": 18,
-            "job_title": "senior web developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "310",
-            "num_char": 22,
-            "job_title": "web developer and student",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_student"
-            ],
-            "color": "#97831f"
-          },
-          {
-            "uid": "311",
-            "num_char": 13,
-            "job_title": "ui / ux engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "312",
-            "num_char": 16,
-            "job_title": "frontend developer",
-            "num_people": 5,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "313",
-            "num_char": 16,
-            "job_title": "frontend engineer",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "314",
-            "num_char": 23,
-            "job_title": "senior frontend developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "315",
-            "num_char": 18,
-            "job_title": "r and shiny developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "316",
-            "num_char": 15,
-            "job_title": "report developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "317",
-            "num_char": 17,
-            "job_title": "software developer",
-            "num_people": 5,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "318",
-            "num_char": 16,
-            "job_title": "software engineer",
-            "num_people": 13,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "319",
-            "num_char": 21,
-            "job_title": "staff software engineer",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "320",
-            "num_char": 22,
-            "job_title": "senior software engineer",
-            "num_people": 6,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "321",
-            "num_char": 20,
-            "job_title": "lead software engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "322",
-            "num_char": 21,
-            "job_title": "sr. software engineer ii",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "323",
-            "num_char": 22,
-            "job_title": "vp, software engineering",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "324",
-            "num_char": 18,
-            "job_title": "sr software engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "325",
-            "num_char": 45,
-            "job_title": "software engineer and data visualisation developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "326",
-            "num_char": 53,
-            "job_title": "software development scientist / research software engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science",
-              "field_research"
-            ],
-            "color": "#b0a552"
-          },
-          {
-            "uid": "327",
-            "num_char": 27,
-            "job_title": "scientific software developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "328",
-            "num_char": 30,
-            "job_title": "data scientist / software engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "329",
-            "num_char": 34,
-            "job_title": "software developer / bioinformatician",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "330",
-            "num_char": 17,
-            "job_title": "database developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "331",
-            "num_char": 26,
-            "job_title": "data visualisation developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "332",
-            "num_char": 26,
-            "job_title": "data visualization developer",
-            "num_people": 4,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "333",
-            "num_char": 28,
-            "job_title": "web data visualisation engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "334",
-            "num_char": 31,
-            "job_title": "senior data visualization engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "335",
-            "num_char": 35,
-            "job_title": "freelance data visualization developer",
-            "num_people": 1,
-            "isFreelance": true,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "336",
-            "num_char": 25,
-            "job_title": "data visualization engineer",
-            "num_people": 17,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "337",
-            "num_char": 21,
-            "job_title": "visualization engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "338",
-            "num_char": 33,
-            "job_title": "sr data visualization design engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_design"
-            ],
-            "color": "#7d593a"
-          },
-          {
-            "uid": "339",
-            "num_char": 28,
-            "job_title": "sr. data visualization engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "340",
-            "num_char": 19,
-            "job_title": "data viz lead engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "341",
-            "num_char": 30,
-            "job_title": "lead data visualisation developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "342",
-            "num_char": 32,
-            "job_title": "technical lead (data visualization)",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "343",
-            "num_char": 15,
-            "job_title": "data viz engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "344",
-            "num_char": 18,
-            "job_title": "editorial developer",
-            "num_people": 4,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_communications"
-            ],
-            "color": "#62482b"
-          },
-          {
-            "uid": "345",
-            "num_char": 28,
-            "job_title": "full-stack editorial developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_communications"
-            ],
-            "color": "#62482b"
-          },
-          {
-            "uid": "346",
-            "num_char": 19,
-            "job_title": "application team lead",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "347",
-            "num_char": 27,
-            "job_title": "software engineer / ux designer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_design"
-            ],
-            "color": "#7d593a"
-          },
-          {
-            "uid": "348",
-            "num_char": 34,
-            "job_title": "senior front end designer and developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_design"
-            ],
-            "color": "#7d593a"
-          },
-          {
-            "uid": "349",
-            "num_char": 41,
-            "job_title": "developer/designer, news and special projects",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_design",
-              "field_communications"
-            ],
-            "color": "#864530"
-          }
-        ],
-        "sumSeniors": 15,
-        "sumLeaders": 7,
-        "sumFreelancers": 4
-      },
-      {
-        "group_id": "it",
-        "group_label": "IT Specialists",
-        "sumPeople": 35,
-        "titles": [
-          {
-            "uid": "350",
-            "num_char": 21,
-            "job_title": "database administrator",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "351",
-            "num_char": 28,
-            "job_title": "evaluation and database manager",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "352",
-            "num_char": 21,
-            "job_title": "it applications analyst",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "353",
-            "num_char": 3,
-            "job_title": "dsi",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "354",
-            "num_char": 12,
-            "job_title": "it specialist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "355",
-            "num_char": 9,
-            "job_title": "it manager",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "356",
-            "num_char": 26,
-            "job_title": "chief of it service of hospital",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "357",
-            "num_char": 25,
-            "job_title": "senior associate technology",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "358",
-            "num_char": 25,
-            "job_title": "manager, technical services",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "359",
-            "num_char": 19,
-            "job_title": "chief digital officer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "360",
-            "num_char": 21,
-            "job_title": "application specialist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "361",
-            "num_char": 20,
-            "job_title": "director of technology",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "362",
-            "num_char": 17,
-            "job_title": "seo program manager",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "363",
-            "num_char": 38,
-            "job_title": "vice director of technological development",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "364",
-            "num_char": 17,
-            "job_title": "digital strategist",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "365",
-            "num_char": 25,
-            "job_title": "interactive project manager",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "366",
-            "num_char": 23,
-            "job_title": "health informatics officer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "367",
-            "num_char": 37,
-            "job_title": "scientific operations systems specialist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "368",
-            "num_char": 29,
-            "job_title": "marketing technology consultant",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_communications"
-            ],
-            "color": "#62482b"
-          },
-          {
-            "uid": "369",
-            "num_char": 18,
-            "job_title": "design technologist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_design"
-            ],
-            "color": "#7d593a"
-          },
-          {
-            "uid": "370",
-            "num_char": 18,
-            "job_title": "senior technologist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "371",
-            "num_char": 22,
-            "job_title": "senior security engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "372",
-            "num_char": 18,
-            "job_title": "security strategist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "373",
-            "num_char": 19,
-            "job_title": "technical specialist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "374",
-            "num_char": 28,
-            "job_title": "senior member of technical staff",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "375",
-            "num_char": 3,
-            "job_title": "ls3",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "376",
-            "num_char": 42,
-            "job_title": "ict4d platform and knowledge management officer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_teacher"
-            ],
-            "color": "#7e711a"
-          },
-          {
-            "uid": "377",
-            "num_char": 17,
-            "job_title": "solution architect",
-            "num_people": 4,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "378",
-            "num_char": 30,
-            "job_title": "technology learning & development",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_teacher"
-            ],
-            "color": "#7e711a"
-          },
-          {
-            "uid": "379",
-            "num_char": 8,
-            "job_title": "tech lead",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          },
-          {
-            "uid": "380",
-            "num_char": 11,
-            "job_title": "tech manager",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it"
-            ],
-            "color": "#355F30"
-          }
-        ],
-        "sumSeniors": 5,
-        "sumLeaders": 11,
-        "sumFreelancers": 0
-      },
-      {
-        "group_id": "eng",
-        "group_label": "Engineers",
-        "sumPeople": 32,
-        "titles": [
-          {
-            "uid": "381",
-            "num_char": 3,
-            "job_title": "ing",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "382",
-            "num_char": 11,
-            "job_title": "engineer iii",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "383",
-            "num_char": 17,
-            "job_title": "principal engineer",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "384",
-            "num_char": 18,
-            "job_title": "engineering manager",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "385",
-            "num_char": 15,
-            "job_title": "process engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "386",
-            "num_char": 16,
-            "job_title": "computer engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "387",
-            "num_char": 15,
-            "job_title": "support engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "388",
-            "num_char": 26,
-            "job_title": "project leader, evaluation",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "389",
-            "num_char": 14,
-            "job_title": "system engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "390",
-            "num_char": 36,
-            "job_title": "power systems and data analytics engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it",
-              "field_science"
-            ],
-            "color": "#6e8e47"
-          },
-          {
-            "uid": "391",
-            "num_char": 20,
-            "job_title": "lead solution engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "392",
-            "num_char": 12,
-            "job_title": "data engineer",
-            "num_people": 7,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "393",
-            "num_char": 18,
-            "job_title": "senior data engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "394",
-            "num_char": 16,
-            "job_title": "lead data engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "395",
-            "num_char": 28,
-            "job_title": "business intelligence engineer",
-            "num_people": 3,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "396",
-            "num_char": 19,
-            "job_title": "sr analytics engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "397",
-            "num_char": 18,
-            "job_title": "analytics developer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "398",
-            "num_char": 17,
-            "job_title": "analytics engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "399",
-            "num_char": 34,
-            "job_title": "data analysis & visualization engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_it"
-            ],
-            "color": "#477032"
-          },
-          {
-            "uid": "400",
-            "num_char": 15,
-            "job_title": "insight engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds"
-            ],
-            "color": "#598235"
-          },
-          {
-            "uid": "401",
-            "num_char": 15,
-            "job_title": "project engineer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "402",
-            "num_char": 39,
-            "job_title": "bioprocess engineer, independent, tinkerer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          }
-        ],
-        "sumSeniors": 2,
-        "sumLeaders": 7,
-        "sumFreelancers": 0
-      },
-      {
-        "group_id": "scientist",
-        "group_label": "Scientists",
-        "sumPeople": 32,
-        "titles": [
-          {
-            "uid": "403",
-            "num_char": 9,
-            "job_title": "scientist",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "404",
-            "num_char": 15,
-            "job_title": "senior scientist",
-            "num_people": 5,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "405",
-            "num_char": 35,
-            "job_title": "senior computational biology scientist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "406",
-            "num_char": 14,
-            "job_title": "epidemiologist",
-            "num_people": 3,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "407",
-            "num_char": 26,
-            "job_title": "senior football physiologist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "408",
-            "num_char": 17,
-            "job_title": "geology consultant",
-            "num_people": 1,
-            "isFreelance": true,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "409",
-            "num_char": 17,
-            "job_title": "resource geologist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "410",
-            "num_char": 26,
-            "job_title": "health specialist, planner",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "411",
-            "num_char": 9,
-            "job_title": "paramedic",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "412",
-            "num_char": 11,
-            "job_title": "optometrist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "413",
-            "num_char": 19,
-            "job_title": "behavioral scientist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "414",
-            "num_char": 9,
-            "job_title": "ecologist",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "415",
-            "num_char": 18,
-            "job_title": "scientific employee",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "416",
-            "num_char": 20,
-            "job_title": "project leader medchem",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          },
-          {
-            "uid": "417",
-            "num_char": 20,
-            "job_title": "head of bioinformatics",
-            "num_people": 2,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "418",
-            "num_char": 12,
-            "job_title": "statistician",
-            "num_people": 5,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_science"
-            ],
-            "color": "#779748"
-          },
-          {
-            "uid": "419",
-            "num_char": 21,
-            "job_title": "biostatistician helper",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_science"
-            ],
-            "color": "#779748"
-          },
-          {
-            "uid": "420",
-            "num_char": 22,
-            "job_title": "retired biostatistician",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_ds",
-              "field_science"
-            ],
-            "color": "#779748"
-          },
-          {
-            "uid": "421",
-            "num_char": 35,
-            "job_title": "scientist / data visualization designer",
-            "num_people": 1,
-            "isFreelance": false,
-            "fields": [
-              "field_it",
-              "field_science"
-            ],
-            "color": "#658646"
-          },
-          {
-            "uid": "422",
-            "num_char": 28,
-            "job_title": "medical specialist / consultant",
-            "num_people": 1,
-            "isFreelance": true,
-            "fields": [
-              "field_science"
-            ],
-            "color": "#95AD5C"
-          }
-        ],
-        "sumSeniors": 7,
-        "sumLeaders": 3,
-        "sumFreelancers": 2
-      }
-    ]
-  },
-  {
-    "sct_id": "data_science_sct",
+    "sct_label": "The green family",
+    "sctSumPeople": 739,
+    "sctSumLeaders": 163,
     "groups": [
       {
         "group_id": "data_specialist",
@@ -3557,8 +2130,8 @@ const data = [
           }
         ],
         "sumSeniors": 22,
-        "sumLeaders": null,
-        "sumFreelancers": null
+        "sumLeaders": 13,
+        "sumFreelancers": 1
       },
       {
         "group_id": "analytics",
@@ -4844,11 +3417,1439 @@ const data = [
         "sumSeniors": 3,
         "sumLeaders": 19,
         "sumFreelancers": 7
+      },
+      {
+        "group_id": "dev",
+        "group_label": "Developers",
+        "sumPeople": 106,
+        "titles": [
+          {
+            "uid": "301",
+            "num_char": 9,
+            "job_title": "developer",
+            "num_people": 3,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "302",
+            "num_char": 18,
+            "job_title": "freelance developer",
+            "num_people": 2,
+            "isFreelance": true,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "303",
+            "num_char": 15,
+            "job_title": "senior developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "304",
+            "num_char": 13,
+            "job_title": "lead developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "305",
+            "num_char": 38,
+            "job_title": "lead developer and digital projects manager",
+            "num_people": 1,
+            "isFreelance": true,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "306",
+            "num_char": 20,
+            "job_title": "independent developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "307",
+            "num_char": 16,
+            "job_title": "tableau developer",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "308",
+            "num_char": 12,
+            "job_title": "web developer",
+            "num_people": 5,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "309",
+            "num_char": 18,
+            "job_title": "senior web developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "310",
+            "num_char": 22,
+            "job_title": "web developer and student",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_student"
+            ],
+            "color": "#97831f"
+          },
+          {
+            "uid": "311",
+            "num_char": 13,
+            "job_title": "ui / ux engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "312",
+            "num_char": 16,
+            "job_title": "frontend developer",
+            "num_people": 5,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "313",
+            "num_char": 16,
+            "job_title": "frontend engineer",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "314",
+            "num_char": 23,
+            "job_title": "senior frontend developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "315",
+            "num_char": 18,
+            "job_title": "r and shiny developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "316",
+            "num_char": 15,
+            "job_title": "report developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "317",
+            "num_char": 17,
+            "job_title": "software developer",
+            "num_people": 5,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "318",
+            "num_char": 16,
+            "job_title": "software engineer",
+            "num_people": 13,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "319",
+            "num_char": 21,
+            "job_title": "staff software engineer",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "320",
+            "num_char": 22,
+            "job_title": "senior software engineer",
+            "num_people": 6,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "321",
+            "num_char": 20,
+            "job_title": "lead software engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "322",
+            "num_char": 21,
+            "job_title": "sr. software engineer ii",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "323",
+            "num_char": 22,
+            "job_title": "vp, software engineering",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "324",
+            "num_char": 18,
+            "job_title": "sr software engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "325",
+            "num_char": 45,
+            "job_title": "software engineer and data visualisation developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "326",
+            "num_char": 53,
+            "job_title": "software development scientist / research software engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science",
+              "field_research"
+            ],
+            "color": "#b0a552"
+          },
+          {
+            "uid": "327",
+            "num_char": 27,
+            "job_title": "scientific software developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "328",
+            "num_char": 30,
+            "job_title": "data scientist / software engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "329",
+            "num_char": 34,
+            "job_title": "software developer / bioinformatician",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "330",
+            "num_char": 17,
+            "job_title": "database developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "331",
+            "num_char": 26,
+            "job_title": "data visualisation developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "332",
+            "num_char": 26,
+            "job_title": "data visualization developer",
+            "num_people": 4,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "333",
+            "num_char": 28,
+            "job_title": "web data visualisation engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "334",
+            "num_char": 31,
+            "job_title": "senior data visualization engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "335",
+            "num_char": 35,
+            "job_title": "freelance data visualization developer",
+            "num_people": 1,
+            "isFreelance": true,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "336",
+            "num_char": 25,
+            "job_title": "data visualization engineer",
+            "num_people": 17,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "337",
+            "num_char": 21,
+            "job_title": "visualization engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "338",
+            "num_char": 33,
+            "job_title": "sr data visualization design engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_design"
+            ],
+            "color": "#7d593a"
+          },
+          {
+            "uid": "339",
+            "num_char": 28,
+            "job_title": "sr. data visualization engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "340",
+            "num_char": 19,
+            "job_title": "data viz lead engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "341",
+            "num_char": 30,
+            "job_title": "lead data visualisation developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "342",
+            "num_char": 32,
+            "job_title": "technical lead (data visualization)",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "343",
+            "num_char": 15,
+            "job_title": "data viz engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "344",
+            "num_char": 18,
+            "job_title": "editorial developer",
+            "num_people": 4,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_communications"
+            ],
+            "color": "#62482b"
+          },
+          {
+            "uid": "345",
+            "num_char": 28,
+            "job_title": "full-stack editorial developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_communications"
+            ],
+            "color": "#62482b"
+          },
+          {
+            "uid": "346",
+            "num_char": 19,
+            "job_title": "application team lead",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "347",
+            "num_char": 27,
+            "job_title": "software engineer / ux designer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_design"
+            ],
+            "color": "#7d593a"
+          },
+          {
+            "uid": "348",
+            "num_char": 34,
+            "job_title": "senior front end designer and developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_design"
+            ],
+            "color": "#7d593a"
+          },
+          {
+            "uid": "349",
+            "num_char": 41,
+            "job_title": "developer/designer, news and special projects",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_design",
+              "field_communications"
+            ],
+            "color": "#864530"
+          }
+        ],
+        "sumSeniors": 15,
+        "sumLeaders": 7,
+        "sumFreelancers": 4
+      },
+      {
+        "group_id": "it",
+        "group_label": "IT Specialists",
+        "sumPeople": 35,
+        "titles": [
+          {
+            "uid": "350",
+            "num_char": 21,
+            "job_title": "database administrator",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "351",
+            "num_char": 28,
+            "job_title": "evaluation and database manager",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "352",
+            "num_char": 21,
+            "job_title": "it applications analyst",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "353",
+            "num_char": 3,
+            "job_title": "dsi",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "354",
+            "num_char": 12,
+            "job_title": "it specialist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "355",
+            "num_char": 9,
+            "job_title": "it manager",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "356",
+            "num_char": 26,
+            "job_title": "chief of it service of hospital",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "357",
+            "num_char": 25,
+            "job_title": "senior associate technology",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "358",
+            "num_char": 25,
+            "job_title": "manager, technical services",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "359",
+            "num_char": 19,
+            "job_title": "chief digital officer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "360",
+            "num_char": 21,
+            "job_title": "application specialist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "361",
+            "num_char": 20,
+            "job_title": "director of technology",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "362",
+            "num_char": 17,
+            "job_title": "seo program manager",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "363",
+            "num_char": 38,
+            "job_title": "vice director of technological development",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "364",
+            "num_char": 17,
+            "job_title": "digital strategist",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "365",
+            "num_char": 25,
+            "job_title": "interactive project manager",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "366",
+            "num_char": 23,
+            "job_title": "health informatics officer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "367",
+            "num_char": 37,
+            "job_title": "scientific operations systems specialist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "368",
+            "num_char": 29,
+            "job_title": "marketing technology consultant",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_communications"
+            ],
+            "color": "#62482b"
+          },
+          {
+            "uid": "369",
+            "num_char": 18,
+            "job_title": "design technologist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_design"
+            ],
+            "color": "#7d593a"
+          },
+          {
+            "uid": "370",
+            "num_char": 18,
+            "job_title": "senior technologist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "371",
+            "num_char": 22,
+            "job_title": "senior security engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "372",
+            "num_char": 18,
+            "job_title": "security strategist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "373",
+            "num_char": 19,
+            "job_title": "technical specialist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "374",
+            "num_char": 28,
+            "job_title": "senior member of technical staff",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "375",
+            "num_char": 3,
+            "job_title": "ls3",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "376",
+            "num_char": 42,
+            "job_title": "ict4d platform and knowledge management officer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_teacher"
+            ],
+            "color": "#7e711a"
+          },
+          {
+            "uid": "377",
+            "num_char": 17,
+            "job_title": "solution architect",
+            "num_people": 4,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "378",
+            "num_char": 30,
+            "job_title": "technology learning & development",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_teacher"
+            ],
+            "color": "#7e711a"
+          },
+          {
+            "uid": "379",
+            "num_char": 8,
+            "job_title": "tech lead",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          },
+          {
+            "uid": "380",
+            "num_char": 11,
+            "job_title": "tech manager",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it"
+            ],
+            "color": "#355F30"
+          }
+        ],
+        "sumSeniors": 5,
+        "sumLeaders": 11,
+        "sumFreelancers": 0
+      },
+      {
+        "group_id": "eng",
+        "group_label": "Engineers",
+        "sumPeople": 32,
+        "titles": [
+          {
+            "uid": "381",
+            "num_char": 3,
+            "job_title": "ing",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "382",
+            "num_char": 11,
+            "job_title": "engineer iii",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "383",
+            "num_char": 17,
+            "job_title": "principal engineer",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "384",
+            "num_char": 18,
+            "job_title": "engineering manager",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "385",
+            "num_char": 15,
+            "job_title": "process engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "386",
+            "num_char": 16,
+            "job_title": "computer engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "387",
+            "num_char": 15,
+            "job_title": "support engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "388",
+            "num_char": 26,
+            "job_title": "project leader, evaluation",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "389",
+            "num_char": 14,
+            "job_title": "system engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "390",
+            "num_char": 36,
+            "job_title": "power systems and data analytics engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it",
+              "field_science"
+            ],
+            "color": "#6e8e47"
+          },
+          {
+            "uid": "391",
+            "num_char": 20,
+            "job_title": "lead solution engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "392",
+            "num_char": 12,
+            "job_title": "data engineer",
+            "num_people": 7,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "393",
+            "num_char": 18,
+            "job_title": "senior data engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "394",
+            "num_char": 16,
+            "job_title": "lead data engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "395",
+            "num_char": 28,
+            "job_title": "business intelligence engineer",
+            "num_people": 3,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "396",
+            "num_char": 19,
+            "job_title": "sr analytics engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "397",
+            "num_char": 18,
+            "job_title": "analytics developer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "398",
+            "num_char": 17,
+            "job_title": "analytics engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "399",
+            "num_char": 34,
+            "job_title": "data analysis & visualization engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_it"
+            ],
+            "color": "#477032"
+          },
+          {
+            "uid": "400",
+            "num_char": 15,
+            "job_title": "insight engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds"
+            ],
+            "color": "#598235"
+          },
+          {
+            "uid": "401",
+            "num_char": 15,
+            "job_title": "project engineer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "402",
+            "num_char": 39,
+            "job_title": "bioprocess engineer, independent, tinkerer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          }
+        ],
+        "sumSeniors": 2,
+        "sumLeaders": 7,
+        "sumFreelancers": 0
+      },
+      {
+        "group_id": "scientist",
+        "group_label": "Scientists",
+        "sumPeople": 32,
+        "titles": [
+          {
+            "uid": "403",
+            "num_char": 9,
+            "job_title": "scientist",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "404",
+            "num_char": 15,
+            "job_title": "senior scientist",
+            "num_people": 5,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "405",
+            "num_char": 35,
+            "job_title": "senior computational biology scientist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "406",
+            "num_char": 14,
+            "job_title": "epidemiologist",
+            "num_people": 3,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "407",
+            "num_char": 26,
+            "job_title": "senior football physiologist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "408",
+            "num_char": 17,
+            "job_title": "geology consultant",
+            "num_people": 1,
+            "isFreelance": true,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "409",
+            "num_char": 17,
+            "job_title": "resource geologist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "410",
+            "num_char": 26,
+            "job_title": "health specialist, planner",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "411",
+            "num_char": 9,
+            "job_title": "paramedic",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "412",
+            "num_char": 11,
+            "job_title": "optometrist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "413",
+            "num_char": 19,
+            "job_title": "behavioral scientist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "414",
+            "num_char": 9,
+            "job_title": "ecologist",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "415",
+            "num_char": 18,
+            "job_title": "scientific employee",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "416",
+            "num_char": 20,
+            "job_title": "project leader medchem",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          },
+          {
+            "uid": "417",
+            "num_char": 20,
+            "job_title": "head of bioinformatics",
+            "num_people": 2,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "418",
+            "num_char": 12,
+            "job_title": "statistician",
+            "num_people": 5,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_science"
+            ],
+            "color": "#779748"
+          },
+          {
+            "uid": "419",
+            "num_char": 21,
+            "job_title": "biostatistician helper",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_science"
+            ],
+            "color": "#779748"
+          },
+          {
+            "uid": "420",
+            "num_char": 22,
+            "job_title": "retired biostatistician",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_ds",
+              "field_science"
+            ],
+            "color": "#779748"
+          },
+          {
+            "uid": "421",
+            "num_char": 35,
+            "job_title": "scientist / data visualization designer",
+            "num_people": 1,
+            "isFreelance": false,
+            "fields": [
+              "field_it",
+              "field_science"
+            ],
+            "color": "#658646"
+          },
+          {
+            "uid": "422",
+            "num_char": 28,
+            "job_title": "medical specialist / consultant",
+            "num_people": 1,
+            "isFreelance": true,
+            "fields": [
+              "field_science"
+            ],
+            "color": "#95AD5C"
+          }
+        ],
+        "sumSeniors": 7,
+        "sumLeaders": 3,
+        "sumFreelancers": 2
       }
     ]
   },
   {
     "sct_id": "design_comm_sct",
+    "sct_label": "The red family",
+    "sctSumPeople": 261,
+    "sctSumLeaders": 48,
     "groups": [
       {
         "group_id": "journalist",
@@ -6865,6 +6866,9 @@ const data = [
   },
   {
     "sct_id": "business_sct",
+    "sct_label": "The blue family",
+    "sctSumPeople": 83,
+    "sctSumLeaders": 35,
     "groups": [
       {
         "group_id": "business_dev_op",
@@ -7750,6 +7754,9 @@ const data = [
   },
   {
     "sct_id": "learning_sct",
+    "sct_label": "The orange family",
+    "sctSumPeople": 265,
+    "sctSumLeaders": 42,
     "groups": [
       {
         "group_id": "teacher",
@@ -9414,6 +9421,9 @@ const data = [
   },
   {
     "sct_id": "unknown_sct",
+    "sct_label": "The almond family",
+    "sctSumPeople": 174,
+    "sctSumLeaders": 115,
     "groups": [
       {
         "group_id": "freelance_consultant",
@@ -10191,12 +10201,7 @@ const data = [
         "sumSeniors": 0,
         "sumLeaders": 28,
         "sumFreelancers": 0
-      }
-    ]
-  },
-  {
-    "sct_id": "another_sct",
-    "groups": [
+      },
       {
         "group_id": "unemployed",
         "group_label": "Unemployed",
