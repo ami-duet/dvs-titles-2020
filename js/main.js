@@ -80,12 +80,17 @@ function appendViz() {
         .on('mouseout', d => handleMouseOut(d));
 
         // Append group label
-        const group_label = arches_group.append('text')
-          .attr('x', mainAxisX)
-          .attr('y', archMidHeight)
-          .attr('fill-opacity', 1)
-          .attr('font-size', '1.3rem')
-          .text(group.group_label);
+        const group_label = arches_group.append('foreignObject')
+          .attr('class', 'group-label-wrapper')
+          .attr('x', 0)
+          .attr('y', yPos)
+          .attr('width', vizWidth/2)
+          .attr('height', archHeight);
+        const group_label_container = group_label.append('xhtml:div')
+          .attr('class', 'group-label-container')
+          .append('div')
+            .attr('class', 'group-label')
+            .html(group.group_label);
 
       yPos = arch_y2;
     });
