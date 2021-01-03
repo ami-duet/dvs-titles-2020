@@ -1152,7 +1152,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
-  background-color: #BFB19E;
+  background-color: #60564c;
 }
 
 /* line 12, src/sass/global/_base.scss */
@@ -1276,6 +1276,7 @@ button {
 .hero {
   width: 100vw;
   height: 100vh;
+  min-height: 568px;
   padding: 35px 0;
   background-image: url(../assets/bg_Start_Col.png);
   background-repeat: no-repeat;
@@ -1284,7 +1285,7 @@ button {
   text-align: center;
 }
 
-@media (min-width: 577px) {
+@media (min-width: 849px) {
   /* line 1, src/sass/components/_hero.scss */
   .hero {
     width: 375px;
@@ -1292,7 +1293,7 @@ button {
   }
 }
 
-/* line 16, src/sass/components/_hero.scss */
+/* line 17, src/sass/components/_hero.scss */
 .hero .top-section {
   font-family: "UtopiaDisplay", sans-serif;
   font-size: 1.4rem;
@@ -1300,7 +1301,7 @@ button {
   text-transform: uppercase;
 }
 
-/* line 24, src/sass/components/_hero.scss */
+/* line 25, src/sass/components/_hero.scss */
 .hero .logo {
   margin: 0 -45px;
   width: 100vw;
@@ -1311,15 +1312,15 @@ button {
   background-position: calc(50vw - 51px) center;
 }
 
-@media (min-width: 577px) {
-  /* line 24, src/sass/components/_hero.scss */
+@media (min-width: 849px) {
+  /* line 25, src/sass/components/_hero.scss */
   .hero .logo {
     width: 375px;
     background-position: 135px center;
   }
 }
 
-/* line 39, src/sass/components/_hero.scss */
+/* line 40, src/sass/components/_hero.scss */
 .hero .subtitle {
   margin: 5px 0;
 }
@@ -1574,24 +1575,23 @@ button {
   background-color: #fff;
 }
 
-@media (min-width: 577px) {
+@media (min-width: 849px) {
   /* line 1, src/sass/components/_sections.scss */
   .scroll-container {
     margin: 60px auto;
     width: 375px;
     height: 812px;
-    border: 2px solid #3D342B;
     border-radius: 48px;
   }
 }
 
-/* line 15, src/sass/components/_sections.scss */
+/* line 14, src/sass/components/_sections.scss */
 .section {
   height: 100vh;
   scroll-snap-align: center;
 }
 
-/* line 19, src/sass/components/_sections.scss */
+/* line 18, src/sass/components/_sections.scss */
 .content {
   margin-top: -1px;
   width: 100vw;
@@ -1603,8 +1603,8 @@ button {
   overflow-y: scroll;
 }
 
-@media (min-width: 577px) {
-  /* line 19, src/sass/components/_sections.scss */
+@media (min-width: 849px) {
+  /* line 18, src/sass/components/_sections.scss */
   .content {
     width: 375px;
   }
