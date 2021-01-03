@@ -50,7 +50,7 @@ function appendViz() {
 
     section.groups.forEach(group => {
       const arches_group = arches_sct.append('g')
-        .attr('class', `group_${group.group_id}`);
+        .attr('class', `arches-group group_${group.group_id}`);
 
       const archHeight = Math.ceil(groupSumPeopleScale(group.sumPeople));
       const arch_y2 = yPos + archHeight;
@@ -79,18 +79,17 @@ function appendViz() {
         })
         .on('mouseout', d => handleMouseOut(d));
 
-        // Append group label
-        const group_label = arches_group.append('foreignObject')
+        const group_label_wrapper = arches_group.append('foreignObject')
           .attr('class', 'group-label-wrapper')
           .attr('x', 0)
-          .attr('y', yPos)
-          .attr('width', vizWidth/2)
-          .attr('height', archHeight);
-        const group_label_container = group_label.append('xhtml:div')
-          .attr('class', 'group-label-container')
-          .append('div')
-            .attr('class', 'group-label')
-            .html(group.group_label);
+          .attr('width', vizWidth/2);
+        const group_label = group_label_wrapper.append('xhtml:div').append('div')
+          .attr('class', 'group-label')
+          .html(group.group_label);
+        const labelHeight = group_label.node().getBoundingClientRect().height;
+        group_label_wrapper
+          .attr('y', archMidHeight - labelHeight/2)
+          .attr('height', labelHeight);
 
       yPos = arch_y2;
     });
