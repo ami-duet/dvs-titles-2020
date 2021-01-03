@@ -1,4 +1,3 @@
-/*! project-name v0.0.1 | (c) 2021 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
 // Mouse over arch
 function handleMouseOver(event, d) {
   // Find location of the mouse on the page

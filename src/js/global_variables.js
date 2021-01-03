@@ -1,10 +1,9 @@
-/*! project-name v0.0.1 | (c) 2021 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
 // Global variables
 
 // Layout
-const vizWidth = 300;
+const vizWidth = 340;
 let vizHeight = 3000;
-const mainAxisX = 150;
+const mainAxisX = 170;
 
 // Data-related variables
 const fields = [
