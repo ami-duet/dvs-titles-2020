@@ -68,7 +68,8 @@ function appendViz() {
 
       yPos = arch_y2;
     });
-    yPos += 50;
+
+    yPos += 100;
   });
 
   // Update SVG height based on content
