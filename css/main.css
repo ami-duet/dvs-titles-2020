@@ -1197,21 +1197,20 @@ button {
 /* line 12, src/sass/components/_closure.scss */
 .closure .contact a {
   display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #3D342B;
+  text-decoration: none;
 }
 
-/* line 14, src/sass/components/_closure.scss */
-.closure .contact a.link-green {
-  color: #598235;
+/* line 18, src/sass/components/_closure.scss */
+.closure .contact a:hover, .closure .contact a:focus {
+  text-decoration: underline;
 }
 
-/* line 17, src/sass/components/_closure.scss */
-.closure .contact a.link-red {
-  color: #C55344;
-}
-
-/* line 22, src/sass/components/_closure.scss */
+/* line 23, src/sass/components/_closure.scss */
 .closure .thank-you {
-  margin-top: 100px;
+  margin-top: 90px;
   padding-top: 35px;
   background-image: url(../assets/hearth.svg);
   background-repeat: no-repeat;
@@ -1220,7 +1219,7 @@ button {
   text-align: center;
 }
 
-/* line 30, src/sass/components/_closure.scss */
+/* line 31, src/sass/components/_closure.scss */
 .closure .thank-you div {
   font-family: "UtopiaSemiBold", sans-serif;
   font-size: 1.4rem;
