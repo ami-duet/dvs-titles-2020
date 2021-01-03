@@ -1169,6 +1169,52 @@ button {
   font: inherit;
 }
 
+/* line 1, src/sass/components/_disclaimer.scss */
+.disclaimer {
+  position: relative;
+  padding-top: 50px;
+}
+
+/* line 4, src/sass/components/_disclaimer.scss */
+.disclaimer:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 0;
+  right: 0;
+  height: 122px;
+  background-image: url(../assets/t-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 92px 122px;
+  background-position: center top;
+}
+
+/* line 17, src/sass/components/_disclaimer.scss */
+.disclaimer h2 {
+  position: relative;
+  z-index: 2;
+  margin: 0 0 70px;
+  text-align: center;
+}
+
+/* line 23, src/sass/components/_disclaimer.scss */
+.disclaimer .disclaimer-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 2rem;
+}
+
+/* line 28, src/sass/components/_disclaimer.scss */
+.disclaimer .disclaimer-list li {
+  padding: 30px 0 20px;
+  background-image: url(../assets/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 35px 21px;
+  background-position: 0 0;
+}
+
 /* line 1, src/sass/components/_hero.scss */
 .hero {
   width: 100vw;
@@ -1440,10 +1486,30 @@ button {
   margin-left: -50px;
 }
 
+/* line 1, src/sass/components/_scales.scss */
+.scales {
+  padding-top: 110px;
+  text-align: center;
+  background-image: url(../assets/star.svg);
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center 40px;
+}
+
+/* line 8, src/sass/components/_scales.scss */
+.scales h2 {
+  margin: 0 0 5px;
+}
+
+/* line 11, src/sass/components/_scales.scss */
+.scales .scale-illustration {
+  display: block;
+  margin: 35px auto;
+}
+
 /* line 1, src/sass/components/_sections.scss */
 .scroll-container {
   width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
   -ms-scroll-snap-type: y mandatory;
@@ -1462,17 +1528,16 @@ button {
   }
 }
 
-/* line 16, src/sass/components/_sections.scss */
+/* line 15, src/sass/components/_sections.scss */
 .section {
   height: 100vh;
   scroll-snap-align: center;
 }
 
-/* line 20, src/sass/components/_sections.scss */
+/* line 19, src/sass/components/_sections.scss */
 .content {
   margin-top: -1px;
   width: 100vw;
-  max-height: 100vh;
   background-image: url(../assets/bg_Intro_Col.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1482,7 +1547,7 @@ button {
 }
 
 @media (min-width: 577px) {
-  /* line 20, src/sass/components/_sections.scss */
+  /* line 19, src/sass/components/_sections.scss */
   .content {
     width: 375px;
   }
