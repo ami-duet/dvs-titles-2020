@@ -1514,9 +1514,9 @@ button {
 
 /* line 62, src/sass/components/_legend-colors.scss */
 .legend .legend-description {
+  width: 170px;
   padding-top: 12px;
   padding-left: 35px;
-  padding-right: 45px;
   font-size: 20px;
 }
 
