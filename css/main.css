@@ -1369,6 +1369,12 @@ button {
 }
 
 /* line 29, src/sass/components/_legend.scss */
+.legend .legend-colors-section .legend-color .legend-label.down {
+  position: relative;
+  top: 2px;
+}
+
+/* line 33, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color .pastille {
   margin-left: -20px;
   margin-right: 10px;
@@ -1377,97 +1383,97 @@ button {
   border-radius: 50px;
 }
 
-/* line 36, src/sass/components/_legend.scss */
+/* line 40, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-it .pastille {
   background-color: #355F30;
 }
 
-/* line 37, src/sass/components/_legend.scss */
+/* line 41, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-ds .pastille {
   background-color: #598235;
 }
 
-/* line 38, src/sass/components/_legend.scss */
+/* line 42, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-science .pastille {
   background-color: #95AD5C;
 }
 
-/* line 39, src/sass/components/_legend.scss */
+/* line 43, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-comm .pastille {
   background-color: #903227;
 }
 
-/* line 40, src/sass/components/_legend.scss */
+/* line 44, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-design .pastille {
   background-color: #C55344;
 }
 
-/* line 41, src/sass/components/_legend.scss */
+/* line 45, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-art .pastille {
   background-color: #DB8A80;
 }
 
-/* line 42, src/sass/components/_legend.scss */
+/* line 46, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-business .pastille {
   background-color: #295266;
 }
 
-/* line 43, src/sass/components/_legend.scss */
+/* line 47, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-finance .pastille {
   background-color: #407FA0;
 }
 
-/* line 44, src/sass/components/_legend.scss */
+/* line 48, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-economy .pastille {
   background-color: #6DA8C5;
 }
 
-/* line 45, src/sass/components/_legend.scss */
+/* line 49, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-teacher .pastille {
   background-color: #C88304;
 }
 
-/* line 46, src/sass/components/_legend.scss */
+/* line 50, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-student .pastille {
   background-color: #FAA80F;
 }
 
-/* line 47, src/sass/components/_legend.scss */
+/* line 51, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-research .pastille {
   background-color: #FCC55F;
 }
 
-/* line 48, src/sass/components/_legend.scss */
+/* line 52, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-free .pastille {
   background-color: #4A4138;
 }
 
-/* line 49, src/sass/components/_legend.scss */
+/* line 53, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-manager .pastille {
   background-color: #998675;
 }
 
-/* line 50, src/sass/components/_legend.scss */
+/* line 54, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-exec .pastille {
   background-color: #BAADA1;
 }
 
-/* line 51, src/sass/components/_legend.scss */
+/* line 55, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-dir .pastille {
   background-color: #CBC1B9;
 }
 
-/* line 52, src/sass/components/_legend.scss */
+/* line 56, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-unemployed .pastille {
   background-color: #DCD6D0;
 }
 
-/* line 53, src/sass/components/_legend.scss */
+/* line 57, src/sass/components/_legend.scss */
 .legend .legend-colors-section .legend-color.color-another .pastille {
   background-color: #F6F5F3;
 }
 
-/* line 58, src/sass/components/_legend.scss */
+/* line 62, src/sass/components/_legend.scss */
 .legend .legend-description {
   padding-top: 16px;
   padding-left: 32px;
@@ -1508,6 +1514,7 @@ button {
 
 /* line 19, src/sass/components/_sections.scss */
 .content {
+  margin-top: -1px;
   max-height: 100vh;
   background-image: url(../assets/bg_Intro_Col.png);
   background-repeat: no-repeat;
