@@ -1442,6 +1442,7 @@ button {
 
 /* line 1, src/sass/components/_sections.scss */
 .scroll-container {
+  width: 100vw;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -1461,20 +1462,22 @@ button {
   }
 }
 
-/* line 15, src/sass/components/_sections.scss */
+/* line 16, src/sass/components/_sections.scss */
 .section {
   height: 100vh;
   scroll-snap-align: center;
 }
 
-/* line 19, src/sass/components/_sections.scss */
+/* line 20, src/sass/components/_sections.scss */
 .content {
   margin-top: -1px;
+  width: 100vw;
   max-height: 100vh;
   background-image: url(../assets/bg_Intro_Col.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 
