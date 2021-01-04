@@ -1071,73 +1071,79 @@
 }
 
 @font-face {
+  font-family: 'UtopiaCapt';
+  src: url("../font/UtopiaStd-Capt.woff2") format("woff2"), url("../font/UtopiaStd-Capt.woff") format("woff");
+}
+
+@font-face {
   font-family: 'UtopiaCaptIt';
   src: url("../font/UtopiaStd-CaptIt.woff2") format("woff2"), url("../font/UtopiaStd-CaptIt.woff") format("woff");
 }
 
-/* line 34, src/sass/global/_type.scss */
+/* line 40, src/sass/global/_type.scss */
 h1 {
   margin: 40px 0 0;
   font-family: "Utopia", sans-serif;
   font-size: 3.3rem;
   font-weight: normal;
   text-transform: uppercase;
+  color: #4D4236;
 }
 
 @media (max-height: 570px) {
-  /* line 34, src/sass/global/_type.scss */
+  /* line 40, src/sass/global/_type.scss */
   h1 {
     margin-top: 0;
     font-size: 2.8rem;
   }
 }
 
-/* line 45, src/sass/global/_type.scss */
+/* line 52, src/sass/global/_type.scss */
 h2, h3, h4 {
   font-family: "UtopiaSemiBold", sans-serif;
   font-weight: normal;
 }
 
-/* line 49, src/sass/global/_type.scss */
+/* line 56, src/sass/global/_type.scss */
 h2 {
   margin: 35px 0 0;
   font-size: 2.2rem;
 }
 
 @media (max-height: 570px) {
-  /* line 49, src/sass/global/_type.scss */
+  /* line 56, src/sass/global/_type.scss */
   h2 {
     font-size: 1.8rem;
   }
 }
 
-/* line 56, src/sass/global/_type.scss */
+/* line 63, src/sass/global/_type.scss */
 h3 {
   margin: 0;
   font-size: 1.4rem;
 }
 
-/* line 60, src/sass/global/_type.scss */
+/* line 67, src/sass/global/_type.scss */
 p {
   margin: 40px 0;
 }
 
-/* line 64, src/sass/global/_type.scss */
+/* line 71, src/sass/global/_type.scss */
 .em {
   font-family: "UtopiaBold", sans-serif;
 }
 
-/* line 67, src/sass/global/_type.scss */
+/* line 74, src/sass/global/_type.scss */
 .italic {
   font-family: "UtopiaCaptIt", sans-serif;
 }
 
-/* line 71, src/sass/global/_type.scss */
+/* line 78, src/sass/global/_type.scss */
 .green {
   color: #598235;
 }
 
-/* line 74, src/sass/global/_type.scss */
+/* line 81, src/sass/global/_type.scss */
 .red {
   color: #C55344;
 }
@@ -1295,13 +1301,14 @@ button {
 
 /* line 17, src/sass/components/_hero.scss */
 .hero .top-section {
-  font-family: "UtopiaDisplay", sans-serif;
+  font-family: "UtopiaCapt", sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
   text-transform: uppercase;
+  color: #5D5246;
 }
 
-/* line 25, src/sass/components/_hero.scss */
+/* line 26, src/sass/components/_hero.scss */
 .hero .logo {
   margin: 0 -45px;
   width: 100vw;
@@ -1313,24 +1320,25 @@ button {
 }
 
 @media (min-width: 849px) {
-  /* line 25, src/sass/components/_hero.scss */
+  /* line 26, src/sass/components/_hero.scss */
   .hero .logo {
     width: 375px;
     background-position: 135px center;
   }
 }
 
-/* line 40, src/sass/components/_hero.scss */
+/* line 41, src/sass/components/_hero.scss */
 .hero .subtitle {
   margin: 5px 0;
+  color: #5D5246;
 }
 
 @media (min-width: 768px) and (orientation: portrait) {
-  /* line 45, src/sass/components/_hero.scss */
+  /* line 47, src/sass/components/_hero.scss */
   .hero .title-sct {
     margin-top: 60px;
   }
-  /* line 48, src/sass/components/_hero.scss */
+  /* line 50, src/sass/components/_hero.scss */
   .hero h1 {
     margin-left: auto;
     margin-right: auto;

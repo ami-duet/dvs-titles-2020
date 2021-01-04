@@ -44,7 +44,7 @@ document.addEventListener('click', (e) => {
   }
 });
 // Hide tooltip when user scrolls
-document.getElementsByClassName('content')[0].onscroll = function() {
+document.onscroll = function() {
   if (document.getElementsByClassName('tooltip')[0].classList.contains('visible')) {
     handleMouseOut();
   }
