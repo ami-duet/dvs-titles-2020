@@ -49,3 +49,14 @@ document.getElementsByClassName('content')[0].onscroll = function() {
     handleMouseOut();
   }
 };
+
+// If scroll down on welcome screen, scroll content into view
+const mainContent = document.getElementById('main-content');
+let lastScrollTop = 0;
+window.addEventListener('scroll', (e) => {
+  const st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+  if (st > lastScrollTop && window.scrollY < window.innerHeight){
+   mainContent.scrollIntoView();
+  }
+  lastScrollTop = st <= 0 ? 0 : st;
+});
