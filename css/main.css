@@ -1403,30 +1403,31 @@ button {
   margin-bottom: 30px;
   padding-left: 0;
   list-style: none;
+  font-family: "UtopiaCapt", sans-serif;
   font-size: 1.4rem;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
-/* line 22, src/sass/components/_legend-colors.scss */
+/* line 23, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color {
   margin: 3px 0;
 }
 
-/* line 24, src/sass/components/_legend-colors.scss */
+/* line 25, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color .pastille,
 .legend .legend-colors-section .legend-color .legend-label {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 29, src/sass/components/_legend-colors.scss */
+/* line 30, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color .legend-label.down {
   position: relative;
   top: 2px;
 }
 
-/* line 33, src/sass/components/_legend-colors.scss */
+/* line 34, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color .pastille {
   margin-left: -20px;
   margin-right: 10px;
@@ -1436,103 +1437,103 @@ button {
 }
 
 @media (max-width: 330px) {
-  /* line 33, src/sass/components/_legend-colors.scss */
+  /* line 34, src/sass/components/_legend-colors.scss */
   .legend .legend-colors-section .legend-color .pastille {
     margin-right: 8px;
   }
 }
 
-/* line 43, src/sass/components/_legend-colors.scss */
+/* line 44, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-it .pastille {
   background-color: #355F30;
 }
 
-/* line 44, src/sass/components/_legend-colors.scss */
+/* line 45, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-ds .pastille {
   background-color: #598235;
 }
 
-/* line 45, src/sass/components/_legend-colors.scss */
+/* line 46, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-science .pastille {
   background-color: #95AD5C;
 }
 
-/* line 46, src/sass/components/_legend-colors.scss */
+/* line 47, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-comm .pastille {
   background-color: #903227;
 }
 
-/* line 47, src/sass/components/_legend-colors.scss */
+/* line 48, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-design .pastille {
   background-color: #C55344;
 }
 
-/* line 48, src/sass/components/_legend-colors.scss */
+/* line 49, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-art .pastille {
   background-color: #DB8A80;
 }
 
-/* line 49, src/sass/components/_legend-colors.scss */
+/* line 50, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-business .pastille {
   background-color: #295266;
 }
 
-/* line 50, src/sass/components/_legend-colors.scss */
+/* line 51, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-finance .pastille {
   background-color: #407FA0;
 }
 
-/* line 51, src/sass/components/_legend-colors.scss */
+/* line 52, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-economy .pastille {
   background-color: #6DA8C5;
 }
 
-/* line 52, src/sass/components/_legend-colors.scss */
+/* line 53, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-teacher .pastille {
   background-color: #C88304;
 }
 
-/* line 53, src/sass/components/_legend-colors.scss */
+/* line 54, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-student .pastille {
   background-color: #FAA80F;
 }
 
-/* line 54, src/sass/components/_legend-colors.scss */
+/* line 55, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-research .pastille {
   background-color: #FCC55F;
 }
 
-/* line 55, src/sass/components/_legend-colors.scss */
+/* line 56, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-free .pastille {
   background-color: #4A4138;
 }
 
-/* line 56, src/sass/components/_legend-colors.scss */
+/* line 57, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-manager .pastille {
   background-color: #998675;
 }
 
-/* line 57, src/sass/components/_legend-colors.scss */
+/* line 58, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-exec .pastille {
   background-color: #BAADA1;
 }
 
-/* line 58, src/sass/components/_legend-colors.scss */
+/* line 59, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-dir .pastille {
   background-color: #CBC1B9;
 }
 
-/* line 59, src/sass/components/_legend-colors.scss */
+/* line 60, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-unemployed .pastille {
   background-color: #DCD6D0;
 }
 
-/* line 60, src/sass/components/_legend-colors.scss */
+/* line 61, src/sass/components/_legend-colors.scss */
 .legend .legend-colors-section .legend-color.color-another .pastille {
   background-color: #F6F5F3;
 }
 
-/* line 65, src/sass/components/_legend-colors.scss */
+/* line 66, src/sass/components/_legend-colors.scss */
 .legend .legend-description {
   width: 170px;
   padding-top: 12px;
@@ -1540,7 +1541,7 @@ button {
   font-size: 20px;
 }
 
-/* line 74, src/sass/components/_legend-colors.scss */
+/* line 75, src/sass/components/_legend-colors.scss */
 .deco-left {
   background-image: url(../assets/deco-left.svg);
   background-repeat: no-repeat;
