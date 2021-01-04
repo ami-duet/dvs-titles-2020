@@ -1153,16 +1153,15 @@ html {
           box-sizing: border-box;
   overflow-x: hidden;
   background-color: #60564c;
-  scroll-behavior: smooth;
 }
 
-/* line 13, src/sass/global/_base.scss */
+/* line 12, src/sass/global/_base.scss */
 *, ::after, ::before {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
 
-/* line 16, src/sass/global/_base.scss */
+/* line 15, src/sass/global/_base.scss */
 body {
   margin: 0;
   font-family: "Utopia", sans-serif;
@@ -1172,7 +1171,7 @@ body {
   fill: #3D342B;
 }
 
-/* line 25, src/sass/global/_base.scss */
+/* line 24, src/sass/global/_base.scss */
 input,
 textarea,
 select,
@@ -1348,11 +1347,16 @@ button {
 }
 
 /* line 6, src/sass/components/_intro.scss */
+.definition-top h2 {
+  margin-top: 0;
+}
+
+/* line 9, src/sass/components/_intro.scss */
 .definition-top .definition-type {
   text-transform: uppercase;
 }
 
-/* line 10, src/sass/components/_intro.scss */
+/* line 13, src/sass/components/_intro.scss */
 .definition-text {
   margin-top: 20px;
   padding-top: 42px;
@@ -1362,7 +1366,7 @@ button {
   background-position: center top;
 }
 
-/* line 18, src/sass/components/_intro.scss */
+/* line 21, src/sass/components/_intro.scss */
 .definition-text p:first-of-type {
   margin-top: 0;
 }
@@ -1590,6 +1594,9 @@ button {
 .scroll-container {
   width: 100vw;
   overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
   background-color: #fff;
 }
 
@@ -1603,14 +1610,16 @@ button {
   }
 }
 
-/* line 12, src/sass/components/_sections.scss */
+/* line 14, src/sass/components/_sections.scss */
 .section {
   height: 100vh;
+  scroll-snap-align: center;
 }
 
-/* line 16, src/sass/components/_sections.scss */
+/* line 18, src/sass/components/_sections.scss */
 .content {
   margin-top: -1px;
+  padding-top: 60px;
   width: 100vw;
   background-image: url(../assets/bg_Intro_Col.png);
   background-repeat: no-repeat;
@@ -1621,7 +1630,7 @@ button {
 }
 
 @media (min-width: 849px) {
-  /* line 16, src/sass/components/_sections.scss */
+  /* line 18, src/sass/components/_sections.scss */
   .content {
     width: 375px;
   }
