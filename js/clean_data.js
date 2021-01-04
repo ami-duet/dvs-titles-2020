@@ -23,7 +23,7 @@ const sections = [
     sct_id: 'design_comm_sct', 
     sct_label: 'The red family',
     groups: [
-      {group_id: 'journalist', group_label: 'Journalist'},
+      {group_id: 'journalist', group_label: 'Journalists'},
       {group_id: 'designer', group_label: 'Designers'},
       {group_id: 'artist', group_label: 'Artists'},
       {group_id: 'writer', group_label: 'Writers & Editors'},

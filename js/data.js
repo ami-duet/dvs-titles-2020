@@ -4853,7 +4853,7 @@ const data = [
     "groups": [
       {
         "group_id": "journalist",
-        "group_label": "Journalist",
+        "group_label": "Journalists",
         "sumPeople": 30,
         "titles": [
           {
