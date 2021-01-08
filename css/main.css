@@ -1682,11 +1682,6 @@ button {
 
 /* line 14, src/sass/components/_scales.scss */
 .scales .scale-illustration.scale-illustration--char {
-  width: 178px;
-}
-
-/* line 17, src/sass/components/_scales.scss */
-.scales .scale-illustration.scale-illustration--height {
   width: 211px;
 }
 
