@@ -1307,7 +1307,7 @@ button {
   /* line 1, src/sass/components/_hero.scss */
   .hero {
     width: 375px;
-    height: 812px;
+    height: 730px;
   }
 }
 
@@ -1703,7 +1703,7 @@ button {
     position: relative;
     margin: 0 auto;
     width: 375px;
-    height: 812px;
+    height: 736px;
     border: 6px solid #5F6461;
     border-radius: 48px;
   }
@@ -1724,7 +1724,7 @@ button {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     width: 390px;
-    height: 826px;
+    height: 750px;
     background: transparent;
     border: 12px solid rgba(61, 52, 43, 0.48);
     border-radius: 52px;
