@@ -1110,40 +1110,33 @@ h2 {
   font-size: 2.2rem;
 }
 
-@media (max-height: 570px) {
-  /* line 56, src/sass/global/_type.scss */
-  h2 {
-    font-size: 1.8rem;
-  }
-}
-
-/* line 63, src/sass/global/_type.scss */
+/* line 60, src/sass/global/_type.scss */
 h3 {
   margin: 0;
   font-size: 1.4rem;
 }
 
-/* line 67, src/sass/global/_type.scss */
+/* line 64, src/sass/global/_type.scss */
 p {
   margin: 40px 0;
 }
 
-/* line 71, src/sass/global/_type.scss */
+/* line 68, src/sass/global/_type.scss */
 .em {
   font-family: "UtopiaBold", sans-serif;
 }
 
-/* line 74, src/sass/global/_type.scss */
+/* line 71, src/sass/global/_type.scss */
 .italic {
   font-family: "UtopiaCaptIt", sans-serif;
 }
 
-/* line 78, src/sass/global/_type.scss */
+/* line 75, src/sass/global/_type.scss */
 .green {
   color: #598235;
 }
 
-/* line 81, src/sass/global/_type.scss */
+/* line 78, src/sass/global/_type.scss */
 .red {
   color: #C55344;
 }
