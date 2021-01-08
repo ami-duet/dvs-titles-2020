@@ -1777,19 +1777,20 @@ button {
   margin: 0 auto;
   font-family: "Utopia", sans-serif;
   font-size: 3.4rem;
+  line-height: 4.6rem;
   text-transform: uppercase;
   text-align: center;
   color: #4D4236;
 }
 
-/* line 14, src/sass/components/_titles-viz.scss */
+/* line 15, src/sass/components/_titles-viz.scss */
 #titles-viz .presenting {
-  margin-top: 35px;
+  margin-top: 13px;
   font-size: 1.8rem;
   text-align: center;
 }
 
-/* line 21, src/sass/components/_titles-viz.scss */
+/* line 22, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description {
   padding: 45px 0;
   font-size: 1.4rem;
@@ -1800,7 +1801,7 @@ button {
   background-position: center bottom 20px;
 }
 
-/* line 29, src/sass/components/_titles-viz.scss */
+/* line 30, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description h3 {
   margin-bottom: 2px;
   padding-top: 70px;
@@ -1810,63 +1811,63 @@ button {
   font-size: 1.6rem;
 }
 
-/* line 37, src/sass/components/_titles-viz.scss */
+/* line 38, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--it_sct {
   background-image: url(../assets/crown_fin_green.svg);
 }
 
-/* line 39, src/sass/components/_titles-viz.scss */
+/* line 40, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--it_sct h3 {
   background-image: url(../assets/crown_green.svg);
 }
 
-/* line 41, src/sass/components/_titles-viz.scss */
+/* line 42, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--design_comm_sct {
   background-image: url(../assets/crown_fin_red.svg);
 }
 
-/* line 43, src/sass/components/_titles-viz.scss */
+/* line 44, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--design_comm_sct h3 {
   background-image: url(../assets/crown_red.svg);
 }
 
-/* line 45, src/sass/components/_titles-viz.scss */
+/* line 46, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--business_sct {
   background-image: url(../assets/crown_fin_blue.svg);
 }
 
-/* line 47, src/sass/components/_titles-viz.scss */
+/* line 48, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--business_sct h3 {
   background-image: url(../assets/crown_blue.svg);
 }
 
-/* line 49, src/sass/components/_titles-viz.scss */
+/* line 50, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--learning_sct {
   background-image: url(../assets/crown_fin_orange.svg);
 }
 
-/* line 51, src/sass/components/_titles-viz.scss */
+/* line 52, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--learning_sct h3 {
   background-image: url(../assets/crown_orange.svg);
 }
 
-/* line 53, src/sass/components/_titles-viz.scss */
+/* line 54, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--unknown_sct {
   background-image: url(../assets/crown_fin_almond.svg);
 }
 
-/* line 55, src/sass/components/_titles-viz.scss */
+/* line 56, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--unknown_sct h3 {
   background-image: url(../assets/crown_almond.svg);
 }
 
-/* line 57, src/sass/components/_titles-viz.scss */
+/* line 58, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description .stats-people,
 #titles-viz .family-description .stats-leaders {
   font-family: "UtopiaCapt", sans-serif;
 }
 
-/* line 64, src/sass/components/_titles-viz.scss */
+/* line 65, src/sass/components/_titles-viz.scss */
 #titles-viz svg {
   position: relative;
   left: 50%;
@@ -1874,7 +1875,7 @@ button {
           transform: translateX(-50%);
 }
 
-/* line 70, src/sass/components/_titles-viz.scss */
+/* line 71, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -1885,7 +1886,7 @@ button {
           transition-timing-function: cubic-bezier(0.12, 0, 0.39, 0);
 }
 
-/* line 74, src/sass/components/_titles-viz.scss */
+/* line 75, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path.down {
   opacity: 0.1;
   -webkit-transition-duration: 100ms;
@@ -1894,18 +1895,18 @@ button {
           transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
 }
 
-/* line 78, src/sass/components/_titles-viz.scss */
+/* line 79, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path.highlighted {
   opacity: 1;
 }
 
-/* line 85, src/sass/components/_titles-viz.scss */
+/* line 86, src/sass/components/_titles-viz.scss */
 #titles-viz .group-label-wrapper {
   font-size: 1.4rem;
   line-height: 1.2;
 }
 
-/* line 88, src/sass/components/_titles-viz.scss */
+/* line 89, src/sass/components/_titles-viz.scss */
 #titles-viz .group-label-wrapper .group-label {
   text-align: right;
 }
