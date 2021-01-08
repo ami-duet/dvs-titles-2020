@@ -1181,6 +1181,7 @@ body {
   /* line 15, src/sass/global/_base.scss */
   body {
     padding: 40px 0;
+    height: 100vh;
     background-image: url(../assets/spiderman_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1188,7 +1189,7 @@ body {
   }
 }
 
-/* line 32, src/sass/global/_base.scss */
+/* line 33, src/sass/global/_base.scss */
 input,
 textarea,
 select,
@@ -1649,34 +1650,13 @@ button {
 /* line 24, src/sass/components/_process.scss */
 .process .image-wrapper .image-legend {
   position: absolute;
-  bottom: 14px;
-  right: 45px;
+  bottom: 30px;
+  right: 20px;
   max-width: 177px;
   font-family: "UtopiaCapt", sans-serif;
   font-size: 1.6rem;
   line-height: 2.1rem;
   text-transform: uppercase;
-}
-
-/* line 35, src/sass/components/_process.scss */
-.process .musical {
-  display: inline-block;
-  position: relative;
-}
-
-/* line 38, src/sass/components/_process.scss */
-.process .musical:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: -10px;
-  left: 29px;
-  width: 25px;
-  height: 38px;
-  background-image: url(../assets/note.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
 /* line 1, src/sass/components/_scales.scss */
@@ -1751,7 +1731,22 @@ button {
   }
 }
 
-/* line 29, src/sass/components/_sections.scss */
+@media (min-width: 849px) and (min-height: 470px) {
+  /* line 30, src/sass/components/_sections.scss */
+  .scroll-container {
+    position: absolute;
+    left: 50%;
+  }
+  /* line 34, src/sass/components/_sections.scss */
+  .double-container,
+  .scroll-container {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+/* line 40, src/sass/components/_sections.scss */
 .content {
   margin-top: -1px;
   padding-top: 60px;
@@ -1764,7 +1759,7 @@ button {
 }
 
 @media (min-width: 849px) {
-  /* line 29, src/sass/components/_sections.scss */
+  /* line 40, src/sass/components/_sections.scss */
   .content {
     width: 375px;
   }
