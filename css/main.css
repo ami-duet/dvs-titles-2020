@@ -1787,7 +1787,14 @@ button {
   color: #4D4236;
 }
 
-/* line 16, src/sass/components/_titles-viz.scss */
+/* line 14, src/sass/components/_titles-viz.scss */
+#titles-viz .presenting {
+  margin-top: 35px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* line 21, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description {
   padding: 45px 0;
   font-size: 1.4rem;
@@ -1798,7 +1805,7 @@ button {
   background-position: center bottom 20px;
 }
 
-/* line 24, src/sass/components/_titles-viz.scss */
+/* line 29, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description h3 {
   margin-bottom: 2px;
   padding-top: 70px;
@@ -1808,63 +1815,63 @@ button {
   font-size: 1.6rem;
 }
 
-/* line 32, src/sass/components/_titles-viz.scss */
+/* line 37, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--it_sct {
   background-image: url(../assets/crown_fin_green.svg);
 }
 
-/* line 34, src/sass/components/_titles-viz.scss */
+/* line 39, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--it_sct h3 {
   background-image: url(../assets/crown_green.svg);
 }
 
-/* line 36, src/sass/components/_titles-viz.scss */
+/* line 41, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--design_comm_sct {
   background-image: url(../assets/crown_fin_red.svg);
 }
 
-/* line 38, src/sass/components/_titles-viz.scss */
+/* line 43, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--design_comm_sct h3 {
   background-image: url(../assets/crown_red.svg);
 }
 
-/* line 40, src/sass/components/_titles-viz.scss */
+/* line 45, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--business_sct {
   background-image: url(../assets/crown_fin_blue.svg);
 }
 
-/* line 42, src/sass/components/_titles-viz.scss */
+/* line 47, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--business_sct h3 {
   background-image: url(../assets/crown_blue.svg);
 }
 
-/* line 44, src/sass/components/_titles-viz.scss */
+/* line 49, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--learning_sct {
   background-image: url(../assets/crown_fin_orange.svg);
 }
 
-/* line 46, src/sass/components/_titles-viz.scss */
+/* line 51, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--learning_sct h3 {
   background-image: url(../assets/crown_orange.svg);
 }
 
-/* line 48, src/sass/components/_titles-viz.scss */
+/* line 53, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--unknown_sct {
   background-image: url(../assets/crown_fin_almond.svg);
 }
 
-/* line 50, src/sass/components/_titles-viz.scss */
+/* line 55, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description.family-description--unknown_sct h3 {
   background-image: url(../assets/crown_almond.svg);
 }
 
-/* line 52, src/sass/components/_titles-viz.scss */
+/* line 57, src/sass/components/_titles-viz.scss */
 #titles-viz .family-description .stats-people,
 #titles-viz .family-description .stats-leaders {
   font-family: "UtopiaCapt", sans-serif;
 }
 
-/* line 59, src/sass/components/_titles-viz.scss */
+/* line 64, src/sass/components/_titles-viz.scss */
 #titles-viz svg {
   position: relative;
   left: 50%;
@@ -1872,7 +1879,7 @@ button {
           transform: translateX(-50%);
 }
 
-/* line 65, src/sass/components/_titles-viz.scss */
+/* line 70, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path {
   opacity: 1;
   -webkit-transition-property: opacity;
@@ -1883,7 +1890,7 @@ button {
           transition-timing-function: cubic-bezier(0.12, 0, 0.39, 0);
 }
 
-/* line 69, src/sass/components/_titles-viz.scss */
+/* line 74, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path.down {
   opacity: 0.1;
   -webkit-transition-duration: 100ms;
@@ -1892,18 +1899,18 @@ button {
           transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
 }
 
-/* line 73, src/sass/components/_titles-viz.scss */
+/* line 78, src/sass/components/_titles-viz.scss */
 #titles-viz .arches path.highlighted {
   opacity: 1;
 }
 
-/* line 80, src/sass/components/_titles-viz.scss */
+/* line 85, src/sass/components/_titles-viz.scss */
 #titles-viz .group-label-wrapper {
   font-size: 1.4rem;
   line-height: 1.2;
 }
 
-/* line 83, src/sass/components/_titles-viz.scss */
+/* line 88, src/sass/components/_titles-viz.scss */
 #titles-viz .group-label-wrapper .group-label {
   text-align: right;
 }
