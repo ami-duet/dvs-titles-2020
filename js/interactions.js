@@ -2,8 +2,17 @@
 // Mouse over arch
 function handleMouseOver(event, d) {
   // Find location of the mouse on the page
-  const mouseX = event.pageX - 30;
+  const screenWidth = window.innerWidth;
+  const phoneWidth = 375;
+  const gapX = 30;
+  const mouseX = event.pageX - gapX;
   const mouseY = event.pageY + 20;
+  let maxWidth = phoneWidth;
+
+  if (screenWidth >= 849) {
+    const phoneX = mouseX - (screenWidth - phoneWidth) / 2;
+    maxWidth = phoneWidth - phoneX - 6;
+  }
 
   // Update text in tooltip
   d3.select('.tooltip .job-title').text(d.job_title);
@@ -19,6 +28,7 @@ function handleMouseOver(event, d) {
   d3.select('.tooltip')
     .style('top', mouseY + 'px')
     .style('left', mouseX + 'px')
+    .style('max-width', maxWidth + 'px')
     .classed('visible', true);
 }
 

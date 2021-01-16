@@ -1162,6 +1162,7 @@ html {
 
 /* line 15, src/sass/global/_base.scss */
 body {
+  position: relative;
   margin: 0;
   font-family: "Utopia", sans-serif;
   font-size: 2.2rem;
@@ -1182,7 +1183,7 @@ body {
   }
 }
 
-/* line 33, src/sass/global/_base.scss */
+/* line 34, src/sass/global/_base.scss */
 input,
 textarea,
 select,
@@ -1905,7 +1906,7 @@ button {
   top: -100vh;
   left: -1000vw;
   padding: 6px 10px 5px;
-  background-color: rgba(189, 162, 126, 0.68);
+  background-color: rgba(189, 162, 126, 0.8);
   border-radius: 6px;
   font-size: 1.4rem;
   line-height: 1.2;
